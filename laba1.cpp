@@ -24,6 +24,6 @@ int main(int argc,char** argv)
 	glutDisplayFunc(RenderSceneCB); //работа в самой оконной системе
 	glutMainLoop(); //зацикливаем и вызываем функцию отображения окна на экран
 
-
+	asd
 	return 0;
 }
