@@ -27,7 +27,7 @@
 
 **glutSwapBuffers()** - changes framebuffer and background buffer
 
-## Second part
+## Second and third part
 
 **GLenum res = glewInit()** - initializes GLEW library
 
