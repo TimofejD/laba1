@@ -1,11 +1,13 @@
+# Laboratory work №1
+
 ## First part
 **glutInit** - is used to initialize the GLUT library
 
 **glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA)** - sets the initial display mode
 
-*GLUT_DOUBLE* - bit mask to select a double buffered window
+*First parameter **GLUT_DOUBLE*** - bit mask to select a double buffered window
 
-*GLUT_RGBA* - bit mask to select an RGBA mode window
+*Second parameter **GLUT_RGBA*** - bit mask to select an RGBA mode window
 
 **glutInitWindowSize(1024, 768)**
 
@@ -15,7 +17,7 @@
 
 **glutDisplayFunc(RenderSceneCB)** - sets the display callback for the current window
 
-*RenderSceneCB* - callable function that performs operaions in the current window
+*Parameter **RenderSceneCB*** - callable function that performs operaions in the current window
 
 **glutMainLoop()** - enters the processing loop to work with window
 
@@ -23,7 +25,7 @@
 
 **glClear(GL_COLOR_BUFFER_BIT)** - clears framebuffer
 
-*GL_COLOR_BUFFER_BIT* - constant that is used to tell the glClear which buffers we want to clear
+*Parameter **GL_COLOR_BUFFER_BIT*** - constant that is used to tell the glClear which buffers we want to clear
 
 **glutSwapBuffers()** - changes framebuffer and background buffer
 
